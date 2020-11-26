@@ -30,6 +30,10 @@ footer .footer-circle {
   justify-content: space-between;
 }
 
+.footer-article-head {
+  color: gray;
+}
+
 .void-element {
   width: 100px;
 }
