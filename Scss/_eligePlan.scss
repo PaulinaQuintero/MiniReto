@@ -1,0 +1,120 @@
+$fondo: rgb(248, 248, 248) none repeat scroll 0% 0%;
+$family: Helvetica, Arial, sans-serif;
+$ancho: 1170px;
+$letrasColor: #222326;
+
+@mixin reset {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $family;
+}
+
+@mixin tamImagen {
+    width: 20%;
+}
+
+.elige-plan{
+
+    @include reset();
+    @include tamImagen();
+
+    width: $ancho;
+    margin: 0 auto;
+    padding: 75px 15px 75px 15px;
+
+    .container_plan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .plan_title{
+            text-align: center;
+            margin-bottom: 20px;
+            color: $letrasColor;
+
+            .plan_title{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 40px;
+            }
+
+            .plan_subtitle{
+                margin-top: -10px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+
+            }
+
+        }
+    
+        .plan_cards{
+            display: flex;
+            flex-wrap: wrap;
+            height: 700px;
+
+            .card{
+
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                margin-right: 20px;
+                width: $ancho/4 - 30px;
+                height: 100%;
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 1em;
+                justify-content: center;
+                align-items: center;
+
+                .card_top{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 30%;
+
+                    .top_meses{
+                    }
+                }
+
+                .card_list{
+                    margin: 0;
+                    list-style: none;
+                    margin-left: -40px;
+                    height: 50%;
+                    li{
+                        display: flex;
+                        // align-items: center;
+                        img{
+                            width: 10%;
+                            margin-right: 0.5em;
+                        }
+                    }
+                
+
+                }
+
+                .card_button{
+                    height: 5%;
+                }
+
+                .card_terminos{
+                    padding: 0;
+                    height: 15%;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    p{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+            }
+
+        }
+    
+    }
+
+}
