@@ -1,0 +1,66 @@
+@mixin premium-title {
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+@mixin premium-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+@mixin premium-card {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+
+@mixin premium-container-responsive{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+
+@mixin premium-title-responsive {
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+@mixin premium-container-responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+}
+
+@mixin premium-card-responsive {
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+@mixin premium-img {
+    height: 100px;
+    width: 100px;
+}
+
+@mixin premium-card-title {
+    font-size: 17px;
+    font-weight: 600;
+}

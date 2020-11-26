@@ -5,34 +5,319 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./Css/main.css">
-    <title>Document</title>
+    <title>Spotify</title>
 </head>
 <body>
     <!-- Header -->
-    <header>
-
+    <header class="header">
+        <a href="" class="logo">
+            <img src="assets/logo.png" alt="" class="logo-header" />
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+            ><span class="navicon"></span
+        ></label>
+        <ul class="menu">
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Ayuda</a></li>
+            <li><a href="#">Descargar</a></li>
+            <li><a href="#">|</a></li>
+            <li><a href="#">Registrate</a></li>
+            <li><a href="#">Iniciar sesion</a></li>
+        </ul>
     </header>
 
 
     <section class="disfruta">
-
+        <div class="title-img">
+            <div>
+                <div>
+                    <h1>Disfruta 3 meses de Premium gratis</h1>
+                    <h4>Disfruta tu música sin anuncios, en modo offline y mucho más. Cancela cuando quieras.</h4>
+                </div>
+                <div class="buttons">
+                    <button class="button1">DISFRUTA 3 MESES GRATIS</button>
+                    <button class="button2">EXPLORA TODOS LOS PLANES</button>
+                </div>
+            </div>
+            <img src="./assets/imagen-disfruta.PNG" alt="">
+        </div>
+        <p>Solo para el plan Individual. Después, cuesta $ 115.00 por mes. Oferta no disponible para usuarios que ya han probado Premium. Se aplican Términos y Condiciones. La oferta termina el 31 dic 2020.</p>
     </section>
 
     <section class="premium">
-
+        <div class="premium-title">¿Por qué cambiarte a Premium?</div>
+        <div class="premium-container">
+            <div class="premium-card">
+                <img src="imgs/musica.png" alt="" class="premium-img"/>
+                <div class="premium-text">
+                    <h2 class="premium-card-title">Descarga música.</h2>
+                    <p>Escúchala donde quieras.</p>
+                </div>
+            </div>
+            <div class="premium-card">
+                <img src="imgs/telefono.png" alt="" class="premium-img"/>
+                <div class="premium-text">
+                    <h2 class="premium-card-title">Sin interrupciones.</h2>
+                    <p>Disfruta tu música sin interrupciones.</p>
+                </div>  
+            </div>
+            <div class="premium-card">
+                <img src="imgs/masmusica.png" alt="" class="premium-img"/>
+                <div class="premium-text">
+                    <h2 class="premium-card-title">Elige tus canciones.</h2>
+                    <p>Incluso en dispositivos móviles.</p>
+                </div>
+            </div>
+            <div class="premium-card">
+                <img src="imgs/otrotelefono.png" alt="" class="premium-img"/>
+                <div class="premium-text">
+                    <h2 class="premium-card-title">Obtén saltos ilimitados.</h2>
+                    <p>Solo tienes que pulsar un botón.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="elige-plan">
+        <article class="container_plan">
 
+            <div class="plan_title">
+                <h2 class="plan_title">Elige tu plan premium</h2>
+                <h3 class="plan_subtitle">Escucha sin límites en tu teléfono, tus altavoces y otros dispositivos.</h3>
+
+            </div>
+            
+
+            <div class="plan_cards">
+
+                <div class="card">
+
+                    <div class="card_top">
+                        <span class="top_meses">3 meses gratis</span>
+                        <span class="top_planes">Planes prepagos disponibles</span>
+
+                        <h2 class="top_title">Individual</h2>
+                        <p class="top_text">Después de la prueba, solo $ 115.00 al mes</p>
+                        <p class="top_cuentas">1 cuenta</p>
+                    </div>
+
+                    <ul class="card_list">
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Escucha música sin anuncios
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Reproduce tus canciones en cualquier lugar, incluso sin conexión
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Reproducción on-demand
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Usa la opción prepaga o suscríbete
+                        </li>
+                    </ul>
+
+                    <div class="card_button">
+                        <button type="button">Comenzar</button>
+                    </div>
+
+                    <div class="card_terminos">
+                        <p>
+                            Los 3 meses gratis no están disponibles para usuarios que ya hayan probado Premium. <span class="terms">Aplican Términos y Condiciones</span>. La oferta termina el 31 dic 2020.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="card_top">
+                        <span class="top_meses">3 meses gratis</span>
+                        <span class="top_planes">Planes prepagos disponibles</span>
+
+                        <h2 class="top_title">Individual</h2>
+                        <p class="top_text">Después de la prueba, solo $ 115.00 al mes</p>
+                        <p class="top_cuentas">1 cuenta</p>
+                    </div>
+
+                    <ul class="card_list">
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Escucha música sin anuncios
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Reproduce tus canciones en cualquier lugar, incluso sin conexión 
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Reproducción on-demand
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Usa la opción prepaga o suscríbete
+                        </li>
+                    </ul>
+
+                    <div class="card_button">
+                        <button type="button">Comenzar</button>
+                    </div>
+
+                    <div class="card_terminos">
+                        <p>
+                            Los 3 meses gratis no están disponibles para usuarios que ya hayan probado Premium. <span class="terms">Aplican Términos y Condiciones</span>. La oferta termina el 31 dic 2020.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="card_top">
+                        <span class="top_meses">3 meses gratis</span>
+                        <span class="top_planes">Planes prepagos disponibles</span>
+
+                        <h2 class="top_title">Individual</h2>
+                        <p class="top_text">Después de la prueba, solo $ 115.00 al mes</p>
+                        <p class="top_cuentas">1 cuenta</p>
+                    </div>
+
+                    <ul class="card_list">
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Escucha música sin anuncios
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Reproduce tus canciones en cualquier lugar, incluso sin conexión
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Reproducción on-demand
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Usa la opción prepaga o suscríbete
+                        </li>
+                    </ul>
+
+                    <div class="card_button">
+                        <button type="button">Comenzar</button>
+                    </div>
+
+                    <div class="card_terminos">
+                        <p>
+                            Los 3 meses gratis no están disponibles para usuarios que ya hayan probado Premium. <span class="terms">Aplican Términos y Condiciones</span>. La oferta termina el 31 dic 2020.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="card_top">
+                        <span class="top_meses">3 meses gratis</span>
+                        <span class="top_planes">Planes prepagos disponibles</span>
+
+                        <h2 class="top_title">Individual</h2>
+                        <p class="top_text">Después de la prueba, solo $ 115.00 al mes</p>
+                        <p class="top_cuentas">1 cuenta</p>
+                    </div>
+
+                    <ul class="card_list">
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Escucha música sin anuncios
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Reproduce tus canciones en cualquier lugar, incluso sin conexión
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Reproducción on-demand
+                        </li>
+                        <li>
+                           <img src="./assets/check-solid.svg" alt=""> 
+                           Usa la opción prepaga o suscríbete
+                        </li>
+                    </ul>
+
+                    <div class="card_button">
+                        <button type="button">Comenzar</button>
+                    </div>
+
+                    <div class="card_terminos">
+                        <p>
+                            Los 3 meses gratis no están disponibles para usuarios que ya hayan probado Premium. <span class="terms">Aplican Términos y Condiciones</span>. La oferta termina el 31 dic 2020.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </article>
     </section>
 
     <section class="ayuda">
-
+        <h1>¿Cómo te podemos ayudar? </h1>
+        <div class="ayuda_buscador">
+            <img src="https://assets.stickpng.com/thumbs/59cfc4d2d3b1936210a5ddc7.png">
+            <input type="text" placeholder="Buscar"> 
+        </div> 
     </section>
 
 
     <footer>
-
+        <section class="data-section">
+            <article>
+                <img class="footer-logo" src="assets/logo.png" alt="">
+            </article>
+            <article>
+                <p class="footer-article-head">COMPAÑÍA</p>
+                <p>Acerca de</p>
+                <p>Empleos</p>
+                <p>For the Record</p>
+            </article>
+            <article>
+                <p class="footer-article-head">COMUNIDADES</p>
+                <p>Servicios para artistas</p>
+                <p>Desarrolladores</p>
+                <p>Publicidad</p>
+                <p>Inversionistas</p>
+                <p>Proveedores</p>
+            </article>
+            <article>
+                <p  class="footer-article-head">ENLACES ÚTILES</p>
+                <p>Ayuda</p>
+                <p>Reproductor web</p>
+                <p>App móvil gratis</p>
+                <p>Tu 2020 en Spotify</p>
+            </article>
+            <article class="void-element"></article>
+            <article class="footer-circle-container">
+                <div class="footer-circle footer-circle-instagram"></div>
+                <div class="footer-circle footer-circle-twitter"></div>
+                <div class="footer-circle footer-circle-facebook"></div>
+            </article>
+        </section>
+        <section class="footer-flag">
+            <p class="footer-country-ref">México</p> <img src="https://country-flags.scdn.co/flags/mx.svg" alt="">
+        </section>
+        <section class="footer-deep">
+            <div class="footer-legal">
+                <span>Legal</span>
+                <span>Centro de privacidad</span>
+                <span>Política de Privacidad</span>
+                <span>Cookies</span>
+                <span>Sobre los anuncios</span>
+            </div>
+            <div>
+                © 2020 Spotify AB
+            </div>
+        </section>
     </footer>
 </body>
 </html>

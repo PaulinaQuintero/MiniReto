@@ -1,0 +1,74 @@
+$bg-color:black;
+$text-color: white;
+$head-text-color: gray;
+$logo-size: 100px;
+$typography: Arial, Helvetica, sans-serif;
+$footer-circle-width: 50px;
+$media-container-width: 300px;
+
+%cropping {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: $bg-color;
+    color: $text-color;
+    font-family: $typography;
+
+    .footer-circle-container {
+        display: flex;
+        width: $media-container-width;
+    }
+
+    .footer-circle {
+        width: $footer-circle-width;
+        height: $footer-circle-width;
+        background-color: $head-text-color;
+        margin-left: 15px;
+        border-radius: 50%;
+    }
+}
+
+.footer-logo {
+    width: $logo-size;
+}
+
+.data-section {
+    @extend %cropping;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.footer-article-head {
+    color: $head-text-color;
+}
+
+.void-element {
+    width: 100px;
+}
+
+.footer-flag {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-flag > * {
+    margin-right: 15px;
+}
+
+.footer-deep {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 0.7em;
+    color: $head-text-color;
+}
+
+.footer-legal > span {
+    margin-left: 15px;
+}

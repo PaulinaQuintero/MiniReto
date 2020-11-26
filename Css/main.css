@@ -1,3 +1,361 @@
+@charset "UTF-8";
+.disfruta .button2, .disfruta .button1 {
+  border-radius: 40px;
+  width: 300px;
+  height: 50px;
+}
 
+.disfruta {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ff4632;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.disfruta .title-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.disfruta h1 {
+  font-size: 44px;
+  max-width: 650px;
+}
+.disfruta h4 {
+  font-size: 25px;
+  max-width: 650px;
+}
+.disfruta .button1 {
+  background-color: black;
+  color: white;
+}
+.disfruta .button2 {
+  background-color: #ff4632;
+}
+.disfruta p {
+  margin-left: 120px;
+  max-width: 650px;
+}
+
+.ayuda {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://i0.wp.com/elrincondechina.com/wp-content/uploads/2018/04/spotify-background.png?w=1200&ssl=1");
+  background-size: contain;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+​ .ayuda > h1 {
+  font-size: 50px;
+  color: white;
+  padding-top: 50px;
+}
+
+.ayuda_buscador {
+  display: flex;
+  justify-content: center;
+}
+
+​ .ayuda_buscador > img {
+  width: 40px;
+  padding: 10px;
+}
+
+​ .ayuda_buscador {
+  border: 0;
+  width: 55%;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 5px;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.data-section {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .footer-circle-container {
+  display: flex;
+  width: 300px;
+}
+footer .footer-circle {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.data-section {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.footer-article-head {
+  color: gray;
+}
+
+.void-element {
+  width: 100px;
+}
+
+.footer-flag {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-flag > * {
+  margin-right: 15px;
+}
+
+.footer-deep {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 0.7em;
+  color: gray;
+}
+
+.footer-legal > span {
+  margin-left: 15px;
+}
+
+.elige-plan {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 20%;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 75px 15px 75px 15px;
+}
+.elige-plan .container_plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.elige-plan .container_plan .plan_title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222326;
+}
+.elige-plan .container_plan .plan_title .plan_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+.elige-plan .container_plan .plan_title .plan_subtitle {
+  margin-top: -10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.elige-plan .container_plan .plan_cards {
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
+}
+.elige-plan .container_plan .plan_cards .card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 262.5px;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+}
+.elige-plan .container_plan .plan_cards .card .card_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30%;
+}
+.elige-plan .container_plan .plan_cards .card .card_list {
+  margin: 0;
+  list-style: none;
+  margin-left: -40px;
+  height: 50%;
+}
+.elige-plan .container_plan .plan_cards .card .card_list li {
+  display: flex;
+}
+.elige-plan .container_plan .plan_cards .card .card_list li img {
+  width: 10%;
+  margin-right: 0.5em;
+}
+.elige-plan .container_plan .plan_cards .card .card_button {
+  height: 5%;
+}
+.elige-plan .container_plan .plan_cards .card .card_terminos {
+  padding: 0;
+  height: 15%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.elige-plan .container_plan .plan_cards .card .card_terminos p {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-color: #000;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #000;
+  align-items: flex-end;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header li a:hover {
+  color: #1ed760;
+}
+
+.header .logo {
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  align-items: flex-start;
+}
+
+.logo-header {
+  width: 150px;
+}
+
+/* menu */
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu icon */
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  align-items: flex-end;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
