@@ -53,6 +53,7 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+
 .footer-flag > * {
     margin-right: 15px;
 }
@@ -64,6 +65,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    font-size: 0.7em;
+    color: $head-text-color;
 }
 
 .footer-legal > span {
